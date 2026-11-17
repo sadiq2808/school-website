@@ -1710,7 +1710,7 @@ label.error {
   width: clamp(86px, 5vw, 320px);
 }
 #preloader .loading {
-  font-size: 50px;
+  font-size: 10px;
   letter-spacing: -8px;
   font-family: "Heebo", sans-serif;
   font-weight: 600;
@@ -1722,7 +1722,7 @@ label.error {
 @media (max-width: 490px) {
   #preloader .loading {
     letter-spacing: -2px;
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 @media (max-width: 390px) {
@@ -1734,12 +1734,12 @@ label.error {
 #preloader .loading span {
   display: inline-block;
   margin: 0 -0.04em;
-  font-size: clamp(35px, 5vw, 130px);
+  font-size: clamp(25px, 3vw, 100px);
 }
 @media (max-width: 390px) {
   #preloader .loading span {
     letter-spacing: -2px;
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 #preloader .loading07 span {
