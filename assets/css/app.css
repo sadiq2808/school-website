@@ -1,42 +1,7 @@
-/*---------------------------------------------"
-// Template Name: Finder
-// Description:  Finder Directory Listing Html Template
-// Version: 1.0.0
 
-===============================================   
-STYLE SHEET INDEXING
-|
-|___ Fonts
-|___ Variables
-|___ Responsive
-|___ Reset Styles
-|___ Spacing
-|___ Helper Classes
-|___ Buttons
-|___ Headings
-|___ Layout Styles
-|___ END STYLE SHEET INDEXING
 
---------------------------------------------*/
-/*-------------------------
-    Fonts
--------------------------*/
-/* FONT ==>  Heebo  ---- Roboto <== */
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-/*-------------------------
-    Variables
--------------------------*/
-/* Fonts */
-/* Colors */
-/* Transitions */
-/* Border-Radius */
-/* Gap */
-/*-------------------------
-    Responsive Styles
--------------------------*/
-/*-------------------------
-    Reset Styles
--------------------------*/
+
 img {
   max-width: 100%;
   height: auto;
@@ -108,9 +73,7 @@ ol.list-style li::marker {
   }
 }
 
-/*-------------------------
-  Typography
--------------------------*/
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -191,7 +154,7 @@ h1,
 .h1 {
   font-family: "Heebo", sans-serif;
   font-size: clamp(41px, 3.73vw, 169px);
-  /* 72px */
+  
   font-style: normal;
   font-weight: 500;
   line-height: 110%;
@@ -201,18 +164,18 @@ h2,
 .h2 {
   font-family: "Heebo", sans-serif;
   font-size: clamp(38px, 2.917vw, 99px);
-  /* 56px */
+
   font-style: normal;
   font-weight: 600;
   line-height: 110%;
-  /* 66px */
+
 }
 
 h3,
 .h3 {
   font-family: "Heebo", sans-serif;
   font-size: clamp(41px, 2.5vw, 80px);
-  /* 48px */
+
   font-style: normal;
   font-weight: 600;
   line-height: 110%;
@@ -222,11 +185,10 @@ h4,
 .h4 {
   font-family: "Heebo", sans-serif;
   font-size: clamp(26px, 1.875vw, 67px);
-  /* 36px */
+ 
   font-style: normal;
   font-weight: 600;
   line-height: 110%;
-  /* 42px */
 }
 @media (max-width: 820px) {
   h4,
@@ -241,22 +203,22 @@ h5,
 .h5 {
   font-family: "Heebo", sans-serif;
   font-size: clamp(24px, 1.563vw, 62px);
-  /* 30px */
+
   font-style: normal;
   font-weight: 400;
   line-height: 110%;
-  /* 33.6px */
+
 }
 
 h6,
 .h6 {
   font-family: "Heebo", sans-serif;
   font-size: clamp(21px, 1.25vw, 40px);
-  /* 24px */
+
   font-style: normal;
   font-weight: 400;
   line-height: 110%;
-  /* 27.6px */
+ 
   letter-spacing: 0.48px;
 }
 @media (max-width: 999px) {
@@ -271,7 +233,7 @@ p {
   color: #787982;
   font-family: "Roboto", sans-serif;
   font-size: clamp(15px, 0.833vw, 32px);
-  /* 16px */
+
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -281,20 +243,20 @@ p {
   p {
     line-height: 160%;
     font-size: clamp(15px, 0.833vw, 28px);
-    /* 16px */
+  
   }
 }
 
 .text-18 {
   font-size: clamp(16px, 0.938vw, 36px);
-  /* 18px */
+
   letter-spacing: 0.36px;
   line-height: 150%;
 }
 
 .text-20 {
   font-size: clamp(16px, 1.042vw, 40px);
-  /* 20px */
+  
   letter-spacing: 0.4px;
   line-height: 150%;
 }
@@ -303,22 +265,22 @@ p {
   color: #f25000;
   text-transform: uppercase;
   font-size: clamp(10px, 0.729vw, 28px);
-  /* 16px */
+ 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 120%;
-  /* 24px */
+
 }
 @media (max-width: 1199px) {
   .eyebrow {
     font-size: clamp(12px, 0.677vw, 32px);
-    /* 15px */
+   
   }
 }
 
 .subtitle {
   font-size: clamp(13px, 0.729vw, 28px);
-  /* 14px */
+  
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -328,7 +290,7 @@ p {
 
 .caption {
   font-size: clamp(10px, 0.625vw, 24px);
-  /* 12px */
+
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -402,9 +364,7 @@ strong {
   transition: all 0.5s ease-in-out;
 }
 
-/*-------------------------
-Helpers
--------------------------*/
+
 .color-primary {
   color: #055bad !important;
 }
@@ -601,9 +561,7 @@ Helpers
   gap: clamp(48px, 3.333vw, 128px);
 }
 
-/*----------------------------------------*/
-/*  SPACE CSS START
-/*----------------------------------------*/
+
 .mb-160 {
   margin-bottom: clamp(96px, 8.32vw, 320px);
 }
@@ -1319,12 +1277,6 @@ Helpers
   gap: clamp(48px, 3.333vw, 128px);
 }
 
-/*-------------------------
-Elements
--------------------------*/
-/*----------------------------------------*/
-/*  Button CSS START
-/*----------------------------------------*/
 .cus-btn {
   position: relative;
   overflow: hidden;
@@ -1441,9 +1393,7 @@ Elements
   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
 }
 
-/*----------------------------------------*/
-/* scroll to top
-/*----------------------------------------*/
+
 .scrollToTopBtn {
   background-color: #1d1d1d;
   border-radius: 50%;
@@ -1560,9 +1510,7 @@ Elements
   stroke: #ffffff !important;
 }
 
-/*-------------------------
-  Form Styling
--------------------------*/
+
 textarea.form-control {
   min-height: 118px;
   height: 179px;
@@ -1757,13 +1705,12 @@ label.error {
   justify-content: center;
   flex-direction: column;
   gap: clamp(40px, 2.5vw, 54px);
-  /* common */
 }
 #preloader .preloader-img {
   width: clamp(86px, 5vw, 320px);
 }
 #preloader .loading {
-  font-size: 92px;
+  font-size: 50px;
   letter-spacing: -8px;
   font-family: "Heebo", sans-serif;
   font-weight: 600;
@@ -1775,24 +1722,24 @@ label.error {
 @media (max-width: 490px) {
   #preloader .loading {
     letter-spacing: -2px;
-    font-size: 30px;
+    font-size: 15px;
   }
 }
 @media (max-width: 390px) {
   #preloader .loading {
     letter-spacing: -2px;
-    font-size: 15px;
+    font-size: 8px;
   }
 }
 #preloader .loading span {
   display: inline-block;
   margin: 0 -0.04em;
-  font-size: clamp(58px, 5vw, 180px);
+  font-size: clamp(35px, 5vw, 130px);
 }
 @media (max-width: 390px) {
   #preloader .loading span {
     letter-spacing: -2px;
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 #preloader .loading07 span {
@@ -1955,9 +1902,7 @@ label.error {
   transform: rotate(-180deg);
 }
 
-/*--------------------------------------------------------------
-# Search Popup
---------------------------------------------------------------*/
+
 .search-popup {
   position: fixed;
   width: 100%;
@@ -2523,9 +2468,6 @@ label.error {
   color: #055bad;
 }
 
-/*--------------------------------------------------------------
-# Mobile Nav
---------------------------------------------------------------*/
 .mobile-nav__wrapper {
   position: fixed;
   top: 0;
@@ -5230,4 +5172,3 @@ input[type=search]::-webkit-search-results-decoration {
   background: #f25000;
 }
 
-/*# sourceMappingURL=app.css.map */
